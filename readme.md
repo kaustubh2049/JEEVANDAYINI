@@ -5,6 +5,7 @@ Jeevandayini is a comprehensive web application that connects blood donors with 
 ## Features
 
 ### For Donors
+
 - User registration and authentication
 - Blood donation appointment scheduling
 - View and manage appointment history
@@ -12,6 +13,7 @@ Jeevandayini is a comprehensive web application that connects blood donors with 
 - Track donation status
 
 ### For Blood Banks
+
 - Dashboard to view and manage appointments
 - Accept or reject donation requests
 - Track donor history
@@ -29,33 +31,39 @@ Jeevandayini is a comprehensive web application that connects blood donors with 
 ## Installation and Setup
 
 1. Clone the repository
+
    ```
    git clone https://github.com/kstubhieeee/jeevandayini.git
    cd jeevandayini
    ```
 
 2. Create and activate a virtual environment
+
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install dependencies
+
    ```
    pip install -r requirements.txt
    ```
 
 4. Run migrations
+
    ```
    python manage.py migrate
    ```
 
 5. Create a superuser
+
    ```
    python manage.py createsuperuser
    ```
 
 6. Run the development server
+
    ```
    python manage.py runserver
    ```
@@ -89,7 +97,3 @@ Jeevandayini is a comprehensive web application that connects blood donors with 
 ## License
 
 This project is open-source and available under the MIT License.
-
-## Contact
-
-- Project Link: [https://github.com/kstubhieeee/jeevandayini](https://github.com/kstubhieeee/jeevandayini)
